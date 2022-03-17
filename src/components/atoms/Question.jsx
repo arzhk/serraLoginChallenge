@@ -1,11 +1,7 @@
 import React from "react";
 
-function Question({ setShowAnswer, showAnswer, text }) {
-  return (
-    <div className="question" onClick={() => setShowAnswer(!showAnswer)}>
-      {text}
-    </div>
-  );
+function Question({ text }) {
+  return <div className="question">{text}</div>;
 }
 
 export default Question;
