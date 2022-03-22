@@ -2,6 +2,7 @@ import React from "react";
 
 function ToastNotification({ type, text }) {
   const isSuccess = type === "success";
+
   return (
     <div
       className="toast-notification"
